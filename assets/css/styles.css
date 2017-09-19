@@ -1,4 +1,5 @@
 body {
+	
 	font-family: arial;
 	font-size: 20px;
 	line-height:28px;
@@ -7,14 +8,25 @@ body {
 	padding: 50px;
 }
 
+.about {
+	background: #000000;
+	color: #ffffff;
+}
+
+a {color: #0F0;}
+a {color: #000;}
+a {color: #F00;}
+
+
+.about a { 
+color: #ffffff; }
+
 h1, h2{
 	font-size: 20px;
 	margin: 0;
 	font-weight: normal;
 }
-a{
-	color: #000000;
-}
+
 
 div{
 	margin-bottom: 40px;
@@ -22,4 +34,11 @@ div{
 
 img {
 	margin-bottom:40px;
+}
+ul{
+	margin:10;
+}
+
+p{
+	width: 710px;
 }
