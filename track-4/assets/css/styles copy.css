@@ -21,7 +21,7 @@ body{
 	height:150px;
 	background: black;
 	color:#fff;
-	position: fixed;
+	position: fixed & absolute;
 
 }
 
