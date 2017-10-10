@@ -12,20 +12,19 @@ body{
 a{
 	color:black;
 	text-decoration:  none;
-
 }
 
 a:hover {
 	color:red;
 }
 
-
-.main {
-	font-size: 200px;
+.main{
+	font-size: 150px;
 	text-align: center;
 	display: inline-block;
-	margin:275px 10px 10px 10px;
+	margin:350px 10px 10px 10px;
 	position: absolute;
+
 }
 
 .button{
@@ -33,13 +32,14 @@ a:hover {
 	height: 170px;
 	font-size: 35px;
 	position: fixed;
+
 }
 
 .button-text{
 	position: fixed;
 	bottom:0;
 	right:0;
-	font-size: 40px;
+	font-siz: 40px;
 	font-family: arial, sans-serif;
 }
 
@@ -48,7 +48,7 @@ a:hover {
 	left:110px;
 	width:1050px;
 	height:1050px;
-	background: white;
+	background: grey;
 	border-radius: 100%;
 	position: absolute;
 	z-index: -4;
