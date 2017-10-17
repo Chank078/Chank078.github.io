@@ -1,9 +1,12 @@
 $('.nav-item').click(function() {
 	var button_name = $(this).data('button');
+	//console.log(button_name);
+	//console.log($(this).attr('class'));
 
 //if (button == 'green'){
 // $('.content').addClass('green');
 //} if else (   )
+
 	$('.content').attr( 'class' , 'column content');
 	$('.content').addClass(button_name);
 
