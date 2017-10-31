@@ -1,0 +1,31 @@
+
+body{
+	font-family: arial;
+	
+	margin:35px;
+	padding:10px, 0px, 0px, 10px;
+	font-size: 0;
+
+}
+
+.YES{
+	font-size: 100px;
+	color:black;
+	margin:15px,115px,15px,15px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.button-wrapper {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.sq1{
+	width:100px;
+	height:50px;
+	color:red;
+}
