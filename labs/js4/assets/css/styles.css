@@ -5,7 +5,6 @@ body{
 	margin:0;
 	padding: 30px;
 	font-size: 0;
-	background-color: blue;
 }
 
 .wrapper{
@@ -20,19 +19,16 @@ ul, li {
 
 .nav-item{
 	font-size: 20px;
-	color:white;
-	border: 3px solid;
-	border-color: white;
-	padding: 10px 10px;
+	border: 1px solid #000;
+	padding: 10px 20px;
 	display: inline-block;
-	margin: 10px 20px 20px 100px;
+	margin: 0px 20px 20px 0px;
 	cursor: pointer;
-
 }
 
 .nav-item:hover {
 	background: #000;
-	color: blue;
+	color: #fff;
 }
 
 .logo{
@@ -48,14 +44,25 @@ ul, li {
 	top:50%;
 	transform: translateY(-50%);
 }
-.Angry.logo{width:100px;}
-.Eh.logo{width:100px;}
-.Sigh.logo{width:100px;}
-.Speechless.logo{width:100px;}
-.Worried.logo{width:100px;}
+.apple.logo{width:150px;}
+.nike.logo{	width:320px;}
+.disney.logo{width:381px;}
+.vogue.logo{width:330px;}
 
-.Angry.logo img{height:100px;}
-.Eh.logo img{height:100px;}
-.Sigh.logo img{height:100px;}
-.Speechless.logo img{height:100px;}
-.Worried.logo img{height:100px;}
+.apple.logo img{height:150px;}
+.nike.logo img{height:115px;}
+.disney.logo img{height:165px;}
+.vogue.logo img{height:110px;}
+
+/*img{
+	height:165px;
+}*/
+
+/*.hide{
+	display: none;
+}*/
+
+
+
+
+
