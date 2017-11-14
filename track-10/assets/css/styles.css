@@ -1,0 +1,63 @@
+
+
+
+body{
+	margin:0;
+	padding: 30px;
+	font-size: 0;
+	background-color: red;
+}
+
+.button{
+	background: white;
+    width: 300px;
+    height: 60px;
+    left: 40%;
+    top: 5%;
+    display: inline-block;
+    position: fixed;
+	font-family: helvetica;
+	font-size: 45px;
+	text-align: center;
+	color:black;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #000;
+	color: #fff;
+}
+
+.line{
+	background: white;
+    width: 5px;
+    height: 450px;
+    left: 50%;
+    top: 20%;
+    display: inline-block;
+    position: fixed;
+}
+.circle{
+	background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    top:40%;
+    left:20%;
+    position: fixed;
+}
+
+.circles{
+	background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    top:40%;
+    left:70%;
+    position: fixed;
+}
+
+
+
