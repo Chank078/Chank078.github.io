@@ -5,3 +5,4 @@ $('.nav-item').click(function(){
 
  $('.content').prepend(img_to_show);
 });
+ 	
