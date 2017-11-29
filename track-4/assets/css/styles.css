@@ -24,11 +24,24 @@ body{
 	
 }
 
-.sq1{
-	margin:20px 20px 20px 20px;
-	padding:20px;
-	width:250px;
-	height:250px;
+.approval{
+	width:1200px;
+	height:100px;
 	background: yellow;
 	position: fixed;
 }
+.zero{
+	margin:-95px 5px 5px 5px;
+}
+.first{
+	margin:5px 5px 5px 5px;
+}
+
+.second{
+	margin:125px 5px 5px 5px;
+}
+
+.third{
+	margin:225px 5px 5px 5px;
+}
+

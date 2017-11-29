@@ -2,32 +2,22 @@
 
 body{
 	font-family: arial;
-	margin:0;
-	padding:0px;
+	margin:-50px;
+	padding:-10px;
 	font-size: 100;
 	background-color: white;
 }
-.whitespace{
-	margin:0 200px 20px 0;
-	padding:20px;
-	width:600px;
-	height:1100px;
-	background: black;
-	position: relative;
-	opacity: .5;
-
-}
 
 .star {
-	font-size: 150px;
-
-	color: red; 
-	position: absolute;}
-
-.moving {
 	font-size: 350px;
-	letter-spacing: -40px;
-	line-height: 30px;
+	letter-spacing: -20px;
+	line-height: 55px;
 	color: red;
 	position: fixed;}
+
+.star:hover{
+	background-color: red;
+	color:black;
+
+}
 

@@ -14,10 +14,10 @@ body{
 	position: fixed;
 	top:50%;
 	left:50%;
-	margin-top:-325px;
-	margin-left:-645px;
-	width: 1290px;
-	height: 650px;
+	margin-top:-225px;
+	margin-left:-545px;
+	width: 1090px;
+	height: 450px;
 	background: black;
 }
 
@@ -31,7 +31,3 @@ body{
 	height:100%;
 
 }
-	
-
-
-

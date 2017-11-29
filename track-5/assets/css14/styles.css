@@ -9,15 +9,14 @@ body{
 
 }
  
-
 .button {
 	position: fixed;
 	top:50%;
 	left:50%;
-	margin-top:-325px;
-	margin-left:-645px;
-	width: 1290px;
-	height: 650px;
+	margin-top:-75px;
+	margin-left:-385px;
+	width: 770px;
+	height: 130px;
 	background: black;
 }
 
@@ -31,7 +30,3 @@ body{
 	height:100%;
 
 }
-	
-
-
-
