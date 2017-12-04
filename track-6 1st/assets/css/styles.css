@@ -1,0 +1,23 @@
+
+
+body{
+	font-family: arial;
+	margin:-50px;
+	padding:-10px;
+	font-size: 100;
+	background-color: white;
+}
+
+.star {
+	font-size: 350px;
+	letter-spacing: -20px;
+	line-height: 55px;
+	color: red;
+	position: fixed;}
+
+.star:hover{
+	background-color: red;
+	color:black;
+
+}
+
