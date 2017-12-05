@@ -1,0 +1,61 @@
+* { box-sizing: border-box; }
+
+
+body{
+	margin:0;
+	padding: 30px;
+	font-size: 0;
+	background-color: blue;
+}
+
+.wrapper{
+	width:100%;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav-item{
+	font-size: 20px;
+	color:white;
+	border: 3px solid;
+	border-color: white;
+	padding: 10px 10px;
+	display: inline-block;
+	margin: 10px 20px 20px 100px;
+	cursor: pointer;
+
+}
+
+.nav-item:hover {
+	background: #000;
+	color: blue;
+}
+
+.logo{
+	/*background:#ffa;*/
+	height:165px;
+	position: relative;
+	display: inline-block;
+	margin: 0 30px 30px 0;
+}
+
+.logo img{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+.Angry.logo{width:100px;}
+.Eh.logo{width:100px;}
+.Sigh.logo{width:100px;}
+.Speechless.logo{width:100px;}
+.Worried.logo{width:100px;}
+
+.Angry.logo img{height:100px;}
+.Eh.logo img{height:100px;}
+.Sigh.logo img{height:100px;}
+.Speechless.logo img{height:100px;}
+.Worried.logo img{height:100px;}
