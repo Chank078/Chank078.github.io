@@ -1,31 +1,26 @@
-$('.nav-item').click(function() {
-	var button_name = $(this).data('button');
+$('.button').click(function() {
+	var objects = ['assets/img/Cicle.png',
+				   'assets/img/Pentagon.png',
+				   'assets/img/Square.png',
+				   'assets/img/Star.png',
+				   'assets/img/Triangle.png',
+				   'assets/img/WhiteC.png',
+				   'assets/img/WhiteP.png',
+				   'assets/img/WhiteR.png',
+				   'assets/img/WhiteS.png',
+				   'assets/img/WhiteT.png',
+				 ];
 
-	$('.content').attr( 'class' , 'column content');
-	$('.content').addClass(button_name);
+    var random_object_number = Math.floor(Math.random() * objects.length);
+	var object_to_use = objects[random_object_number];
+	var result = '';
 
-	$('.nav-item').removeClass('active');
-	$('.about-text').addClass('hide');
-	$(this).addClass('active');
+	if (random_object_number < 1) {
+		result = '<div class="object"><img src="' + object_to_use + '"/></div>';
+	} else{
+		result = '<div class="object ' + color_to_use + '">' + object_to_use + '</div>';
+	}
 
-	if(button_name == 'Real',
-					  'True', 
-					  'Actual',
-					  'Absolute', 
-					  'Genuine', 
-					  'Authentic', 
-					  'Sincere', 
-					  'Accurate',
-					  'Realistic', 
-					  'Veritable',
-					  'blank') {
-		$('.lightbox').removeClass('hide');
-		$('audio')[0].play();
-	} 
+	
+ $('.content').prepend(result);
 });
-
-$('.close-button').click(function() {
-	$('.lightbox').addClass('hide');
-	$('audio')[0].pause();
-	$('.nav-item').removeClass('active');
-})
