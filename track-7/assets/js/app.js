@@ -15,7 +15,7 @@ $('.button').click(function() {
 	var object_to_use = objects[random_object_number];
 	var result = '';
 
-	if (random_object_number < 1) {
+	if (random_object_number < 100) {
 		result = '<div class="object"><img src="' + object_to_use + '"/></div>';
 	} else{
 		result = '<div class="object ' + color_to_use + '">' + object_to_use + '</div>';
