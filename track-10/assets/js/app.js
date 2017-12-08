@@ -13,7 +13,7 @@ function getRandom(){
 	return Math.random() * (100-50) + 50;
 }
 function Random(){
-	return Math.random() * (100-20) + 20;
+	return Math.random() * (100-0) + 0;
 }
 
 

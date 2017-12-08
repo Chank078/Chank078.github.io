@@ -1,17 +1,18 @@
 body{
 	display: block;
 	font-family: arial;
-	margin:-250px;
-	padding:-250px;
+	margin:-850px;
+	padding:-150px;
 	font-size: 100;
+
 	background-color: white;
 }
 
 .word_split {
 	position: fixed;
-	top:-270px;
-	font-size: 350px;
-	letter-spacing: -20px;
+	top:-470px;
+	font-size: 450px;
+	letter-spacing: -10px;
 	line-height: 55px;
 	color: red;
 }
@@ -22,9 +23,8 @@ body{
 	font-weight:bold;
 	color:yellow;
 }
-a:link {
-	color: red;
-	background-color: transparent;
+a: link{
 	text-decoration: none;
-		}
+	color: red;
+	}
 

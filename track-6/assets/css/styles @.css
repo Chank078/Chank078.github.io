@@ -1,0 +1,30 @@
+body{
+	display: block;
+	font-family: arial;
+	margin:-10px;
+	padding:-10px;
+	font-size: 100;
+	background-color: white;
+}
+
+.word_split {
+	position: fixed;
+	top:-370px;
+	font-size: 300px;
+	letter-spacing: 10px;
+	line-height: 205px;
+	color: red;
+}
+
+
+.word_split span:hover {
+	font-size: 200px;
+	line-height: 105px;
+	font-weight:bold;
+	color:yellow;
+}
+
+a: link{
+	text-decoration: none;
+	color: red;
+	}

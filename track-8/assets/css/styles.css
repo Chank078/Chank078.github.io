@@ -3,8 +3,8 @@
 
 body{
 	background-color: white;
-	margin:0;
-	padding: 0;
+	margin:0px;
+	padding: 0px;
 
 
 }
@@ -20,44 +20,124 @@ display: inline-block;
     -webkit-transform: translate(-100%);
 }
 .movingRight{
-    transform: translate(100%);        
+    transform: scale(100,);     
     -webkit-transform: translate(100%);
 }
-	
+.fillbar{
+
+    -ms-transform: scale(200, 1);
+    -webkit-transform: scale(200, 1); 
+    transform: scale(200, 1);
+  
+}
 
 .rect1 {
-	width:300px;
-	height:30px;
-	background:red;	
+	width:23%;
+	height:100px;
+	background:black;
+
 }
 
 .RA {
-	width:20px;
-	height:30px;
-	background:yellow;
+	width:2%;
+	height:100px;
+	background:white;
 }
 
 .rect2 {
-	width:950px;
-	height:30px;
-	background:black;
+	width:75%;
+	height:100px;
+	background:red;
+	margin-right: -20px;
 }
 
 .rect3 {
-	width:800px;
-	height:30px;
-	background:red;	
+	width:25%;
+	height:100px;
+	background:black;	
 }
 
 .RB {
-	width:20px;
-	height:30px;
-	background:yellow;
+	width:2%;
+	height:100px;
+	background:white;
 }
 
 .rect4 {
-	width:450px;
-	height:30px;
-	background:black;
+	width:73%;
+	height:100px;
+	background:red;
+	margin-right: -20px;
+}
+.rect5 {
+	width:27%;
+	height:100px;
+	background:black;	
 }
 
+.RB {
+	width:2%;
+	height:100px;
+	background:white;
+}
+
+.rect6 {
+	width:71%;
+	height:100px;
+	background:red;
+	margin-right: -20px;
+}
+.rect7 {
+	width:29%;
+	height:100px;
+	background:black;	
+}
+
+.RB {
+	width:2%;
+	height:100px;
+	background:white;
+}
+
+.rect8 {
+	width:69%;
+	height:100px;
+	background:red;
+	margin-right: -20px;
+}
+.rect9 {
+	width:31%;
+	height:100px;
+	background:black;	
+}
+
+.RB {
+	width:2%;
+	height:100px;
+	background:white;
+}
+
+.rect10 {
+	width:67%;
+	height:100px;
+	background:red;
+	margin-right: -20px;
+}
+.rect11 {
+	width:33%;
+	height:100px;
+	background:black;	
+}
+
+.RB1 {
+	width:2%;
+	height:100px;
+	background:yellow;
+}
+
+.rect12 {
+	width:65%;
+	height:100px;
+	background:red;
+	margin-right: -20px;
+}

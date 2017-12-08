@@ -1,32 +1,32 @@
 body{
 	margin:0;
-	padding: 30px;
+	padding: 0px;
 	font-size: 0;
-	background-color: red;
+	background-color: yellow;
 }
  
 .button{
-	background: white;
-    width: 300px;
+	background: black;
+    width: 60px;
     height: 60px;
-    left: 40%;
-    top: 5%;
+    left: 48%;
+    top: 8%;
     display: inline-block;
     position: fixed;
 	font-family: helvetica;
 	font-size: 45px;
+    border-radius: 10px;
 	text-align: center;
-	color:black;
 	cursor: pointer;
 }
 
 .button:hover {
-	background: yellow;
+	background: red;
 	
 }
 
 .contents{
-	background: white;
+	background: red;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -35,16 +35,16 @@ body{
     opacity: .6;
 }
 .line{
-	background: white;
+	background: red;
     width: 5px;
     height: 450px;
     left: 50%;
-    top: 20%;
+    top: 25%;
     display: inline-block;
     position: fixed;
 }
 .circleL{
-	background: white;
+	background: red;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -52,10 +52,11 @@ body{
     top:40%;
     left:20%;
     position: fixed;
+
 }
 
 .circleR{
-	background: white;
+	background: red;
     width: 100px;
     height: 100px;
     border-radius: 50%;
