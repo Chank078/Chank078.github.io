@@ -7,9 +7,9 @@ body{
  
 .button{
 	background: black;
-    width: 60px;
-    height: 60px;
-    left: 48%;
+    width: 800px;
+    height: 30px;
+    left: 20%;
     top: 8%;
     display: inline-block;
     position: fixed;
@@ -27,26 +27,27 @@ body{
 
 .contents{
 	background: red;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     display: inline-block;
     position: fixed;
-    opacity: .6;
+    opacity: .7;
 }
 .line{
 	background: red;
-    width: 5px;
-    height: 450px;
+    width: 30px;
+    height: 480px;
     left: 50%;
-    top: 25%;
+    top: 20%;
     display: inline-block;
     position: fixed;
+    border-radius: 10px;
 }
 .circleL{
 	background: red;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     display: inline-block;
     top:40%;
@@ -57,8 +58,8 @@ body{
 
 .circleR{
 	background: red;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     display: inline-block;
     top:40%;
