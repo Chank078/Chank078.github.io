@@ -132,7 +132,11 @@ display: inline-block;
 .RB1 {
 	width:2%;
 	height:100px;
-	background:yellow;
+	background:white;
+}
+
+.RB1:hover {
+	background: yellow;
 }
 
 .rect12 {

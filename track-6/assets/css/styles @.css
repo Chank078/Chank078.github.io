@@ -11,7 +11,7 @@ body{
 	position: fixed;
 	top:-370px;
 	font-size: 300px;
-	letter-spacing: 10px;
+	letter-spacing: -20px;
 	line-height: 205px;
 	color: red;
 }
@@ -19,12 +19,12 @@ body{
 
 .word_split span:hover {
 	font-size: 200px;
-	line-height: 105px;
+	line-height: 205px;
 	font-weight:bold;
 	color:yellow;
 }
 
-a: link{
+a{
 	text-decoration: none;
 	color: red;
 	}

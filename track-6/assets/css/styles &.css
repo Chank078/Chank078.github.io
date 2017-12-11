@@ -12,16 +12,19 @@ body{
 	top:-370px;
 	font-size: 350px;
 	letter-spacing: -20px;
-	line-height: 145px;
+	line-height: 205px;
 	color: red;
 }
 
 
 .word_split span:hover {
-	font-size: 300px;
+	font-size: 200px;
+	line-height: 305px;
 	font-weight:bold;
 	color:yellow;
-	
-
-
 }
+
+a{
+	text-decoration: none;
+	color: red;
+	}

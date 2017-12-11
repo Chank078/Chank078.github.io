@@ -12,33 +12,20 @@ body{
     top:65%;
     left: 80%;
     position: fixed;
-    background-size: 100% 100%;
  }
+ 
  .circle:hover {
- }
-
-.c0{
-    height:1000px;
-    width:1000px;
-    border-radius: 100%;
-   /* background: black;*/
-    top:-9%;
-    left:42%;
-    background-image: url("../img/3tier.png");
+    background-image: url("../img/3tier.png") ;
+    cursor:pointer;
     background-size: 100% 100%;
-    display:none;
-    position: fixed;
-    opacity:.7;
-}
-.c0:hover{
-    opacity: 1;
-}
+
+ }
 
  .c1{
     height:30px;
     width:30px;
     border-radius: 100%;
-    background: orange;
+    background: purple;
     top:8%;
     left: 5%;
     opacity: .6;

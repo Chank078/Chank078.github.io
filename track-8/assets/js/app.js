@@ -99,5 +99,6 @@ function come6() {
 function expansion() {   
     $('.RB1').each(function(index,element){
         element.classList.add('fillbar');
-    })
+    });
+document.getElementsByClassName("RB1")[0].style.backgroundColor = "yellow";
 }

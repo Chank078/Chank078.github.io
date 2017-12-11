@@ -18,11 +18,11 @@ body{
 
 
 .word_split span:hover {
-	font-size: 500px;
+	font-size: 600px;
 	font-weight:bold;
 	color:yellow;
 }
-a:link {
+a {
 	color: red;
 	background-color: transparent;
 	text-decoration: none;
