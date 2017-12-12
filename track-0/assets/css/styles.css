@@ -2,7 +2,6 @@
 
 body{
 	font-family: arial;
-	
 	margin:0;
 	padding:0;
 	font-size: 0;
@@ -37,14 +36,18 @@ body{
 .home {
 	font-size: 15px;
 	color:yellow;
-	text-align: center;
 	margin-top: -30px;
+	text-align: center;
 }
 
 a{
 	text-decoration: none;
-	color: red;
+	color: yellow;
 	}
+
+a:hover{
+	color:red;
+}
 
 
 .no-left-gutter{margin-left: 0;}

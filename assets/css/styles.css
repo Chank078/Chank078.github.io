@@ -30,13 +30,14 @@ color: #ffffff; }
 	font-size: 50px;
 	background: red;
 	padding:10px;
+
 }
 .FINAL: hover{
 	color:green;
 }
 
 div{
-	margin-bottom: 40px;
+	margin-bottom: 100px;
 }
 
 img {
