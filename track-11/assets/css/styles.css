@@ -38,7 +38,7 @@ body{
     height:30px;
     width:30px;
     border-radius: 100%;
-    background: orange;
+    background: red;
     top:8%;
     left: 5%;
     opacity: .6;
@@ -49,7 +49,7 @@ body{
     width:30px;
     border-radius: 100%;
     background: orange;
-    top:20%;
+    top:22%;
     left: 24%;
     opacity: .6;
     position: fixed;
@@ -60,7 +60,7 @@ body{
     width:30px;
     border-radius: 100%;
     background: orange;
-    top:29%;
+    top:33%;
     left: 38%;
     opacity: .6;
     position: fixed;
@@ -70,8 +70,8 @@ body{
     width:30px;
     border-radius: 100%;
     background: orange;
-    top:36%;
-    left: 48%;
+    top:44%;
+    left: 52%;
     opacity: .6;
     position: fixed;
  }
